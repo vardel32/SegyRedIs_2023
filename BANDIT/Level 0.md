@@ -15,20 +15,13 @@ Primeramente se conecta al servidor mediante el comando SSH.
 ```
 
 Posterior a eso se coloca la contraseña dada y podemos acceder para ejecutar comandos de linux.
-
-```bash
-bandit0@bandit:~$ ls
-readme
-bandit0@bandit:~$ cat readme
-NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
-bandit0@bandit:~$ 
-```
-
-Obtenemos la contraseña para el siguiente nivel.
-
-==NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL==
 ## Notas adicionales
-
+La conexión mediante SSH se realiza con los siguientes parametros.
+- Comando SSH.
+- Usuario
+- IP
+- Puerto (opcional mediante el parametro `-p`)
+SSH (Secure SHell, interprete de órdenes seguro) es el nombre de un protocolo y del programa que lo implementa cuya principal funcion es el acceso remoto a un servidor por medio de un canal seguro en el que toda la información está cifrada.
 ## Referencias
 https://www.wikihow.com/Use-SSH
 https://en.wikipedia.org/wiki/Secure_Shell
