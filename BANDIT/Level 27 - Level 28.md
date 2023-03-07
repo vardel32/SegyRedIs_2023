@@ -25,8 +25,13 @@ The password to the next level is: AVanL161y9rsbcJIsFHuw35rjaOM19nR
 
 ```
 
+<<<<<<< HEAD
 ===AVanL161y9rsbcJIsFHuw35rjaOM19nR===
 
 ## Notas adicionales
 mktemp -d crea una carpeta con un nombre al azar
+=======
+## Notas adicionales
+mktemp -d
+>>>>>>> 8e322873663603679adefd9d4cd7105c0f8737e3
 ## Referencias
